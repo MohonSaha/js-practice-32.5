@@ -75,10 +75,40 @@ const user = {
     name: "General People",
     age: "16-40",
     behivior: "technical",
-    benifit: "Saving time and money"
+    benefit: "Saving time and money"
 };
 const {name, age} = user;
+const three = user.behivior;
+console.log(three);
 
-console.log(user.name);
-console.log(user.name);
-console.log(age);
+// console.log(user.name);
+// console.log(user.name);
+// console.log(age);
+
+
+function hisab (num1, num2, num3 = 7){
+    const sum = num1 + num2 + num3;
+    return sum;
+}
+
+const insertNum = hisab(10,3);
+// console.log(insertNum);
+
+
+const Mohon = {
+    firstName: "Mohon S",
+    lastName: "Krishna",
+    age: 21,
+    designation: "Entreprenure",
+    company: {
+        name: "DpcSeba", 
+        age: "2 month", 
+        Mission: "Organizes Medical service", 
+        vission:{
+            firstV: "serial",
+            secondV: "ambulance",
+            thirdV: "blood"}
+        },
+    oddNumber: [1, 3, 5, 7, 10, 14, 18, 90]
+};
+console.log(Mohon?.company?.vissi?.thirdV);
