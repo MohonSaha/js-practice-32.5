@@ -23,5 +23,25 @@ And i believe that ${god}. My name is ${abuotMe.firstName} ${abuotMe.lastName}.I
 It's actually an ${abuotMe.company.Mission}.Our services are ${abuotMe.company.vission.firstV}, ${abuotMe.company.vission.secondV}, ${abuotMe.company.vission.thirdV}.
 `;
 
-console.log(tamplate);
+// console.log(tamplate);
+
+
+
+const multiply = (num1) => num1 * 5;
+
+const result = multiply(10);
+// console.log(result);
+
+const twoParameter = (num1, num2) => {
+    const firstAdd = num1 + 2;
+    const secondAdd = num2 + 2;
+    const multiple = firstAdd * secondAdd;
+    return multiple; 
+}
+const last = twoParameter(10,10);
+console.log(last);
+
+
+
+
 
