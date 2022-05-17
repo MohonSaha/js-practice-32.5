@@ -68,4 +68,17 @@ const doctorMagura = [
 ];
 
 const docList = doctorMagura.filter(doctor => doctor.Fee == 5000);
-console.log(docList);
+// console.log(docList);
+
+
+const user = {
+    name: "General People",
+    age: "16-40",
+    behivior: "technical",
+    benifit: "Saving time and money"
+};
+const {name, age} = user;
+
+console.log(user.name);
+console.log(user.name);
+console.log(age);
