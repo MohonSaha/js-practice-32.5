@@ -39,9 +39,23 @@ const twoParameter = (num1, num2) => {
     return multiple; 
 }
 const last = twoParameter(10,10);
-console.log(last);
+// console.log(last);
 
 
+const threeParameter = (x,y,z) => {
+    const first = x * y;
+    const second = first * z;
+    return second;
+}
+const lastResult = threeParameter(10,10,10);
+// console.log(lastResult);
 
 
+const serialNo = [22, 9, 30, 13, 78, 88, 98];
+const resultIt = serialNo.map(serial => serial*5);
+// console.log(resultIt);
+
+const oddNumber = [1, 3, 5, 7, 10, 14, 18, 90];
+const oddNum = oddNumber.filter(num => (num%2 != 0) );
+console.log(oddNum);
 
