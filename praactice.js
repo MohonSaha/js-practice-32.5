@@ -57,5 +57,15 @@ const resultIt = serialNo.map(serial => serial*5);
 
 const oddNumber = [1, 3, 5, 7, 10, 14, 18, 90];
 const oddNum = oddNumber.filter(num => (num%2 != 0) );
-console.log(oddNum);
+// console.log(oddNum);
 
+const doctorMagura = [
+    {name: "Krishna Gopal Sen", Fee: 5000, cember: "ash-shefa"},
+    {name: "Mithun Kumar Saha", Fee: 3000, chember: "Lab-Aid"},
+    {name: "Zakia SUltana", Fee: 5000, chember: "sonoplus"},
+    {name: "Somapti Biswas", Fee: 1000, chember: "peerless"},
+    {name: "Mukul Krishna Biswas", Fee: 5040, chember: "peerless"}
+];
+
+const docList = doctorMagura.filter(doctor => doctor.Fee == 5000);
+console.log(docList);
